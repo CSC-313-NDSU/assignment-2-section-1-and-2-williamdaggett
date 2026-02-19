@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+    font-family: 'Lucida Console', 'Courier New', monospace;
+    color: crimson
+}
+table {
+    background-color: dimgray;
+    
+}
+nav {
+    
+    background-color: dimgray;
+}
+a {
+    color: red;
+}
+.btn-primary {
+    background-color: crimson;
+    --bs-btn-hover-bg: red;
+}
+.container-fluid {
+    padding: 25px;
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 20px;
+}
+img{
+    border-radius: 25px;
+}
