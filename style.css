@@ -21,7 +21,7 @@ a {
 .container-fluid {
     padding: 25px;
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: auto auto;
     row-gap: 20px;
 }
 img{

@@ -34,48 +34,52 @@
 </nav>
 
 <body>
-  <div class="container-fluid">
-    <div>
+  <div class="container-fluid" style="grid-template-columns: auto;">
+    <div class="row">
+      <div class="col">
+        <h3>List of Hobbies</h3>
+        <ol>
+          <li>Kickboxing</li>
+          <li>Rope Dart</li>
+          <li>Flying Drones</li>
+          <li>Tabletop Games
+              <ol>
+                  <li>Dungeons and Dragons</li>
+                  <li>Pathfinder</li>
+                  <li>Magic the Gathering</li>
+                  <li>Chess</li>
+              </ol>
+          </li>
+          <li>Video Games
+              <ol>
+                  <li>Slay the Spire</li>
+                  <li>Rumble VR</li>
+                  <li>Balatro</li>
+                  <li>Helldivers 2</li>
+              </ol>
+          </li>
+        </ol>
+      </div>
 
-      <h3>Favorite Movies</h3>
-      <ul>
-        <li>Mad Max: Fury Road</li>
-        <li>Sinners</li>
-        <li>The Grand Budapest Hotel</li>
-        <li>The Lord of the Rings Trilogy</li>
-        <li>The Good, the Bad, and the Ugly</li>
-      </ul>
-
-      <h3>List of Hobbies</h3>
-      <ol>
-        <li>Kickboxing</li>
-        <li>Rope Dart</li>
-        <li>Flying Drones</li>
-        <li>Tabletop Games
-            <ol>
-                <li>Dungeons and Dragons</li>
-                <li>Pathfinder</li>
-                <li>Magic the Gathering</li>
-                <li>Chess</li>
-            </ol>
-        </li>
-        <li>Video Games
-            <ol>
-                <li>Slay the Spire</li>
-                <li>Rumble VR</li>
-                <li>Balatro</li>
-                <li>Helldivers 2</li>
-            </ol>
-        </li>
-      </ol>
+      <div class="col">
+        <h3>Favorite Movies</h3>
+        <ul>
+          <li>Mad Max: Fury Road</li>
+          <li>Sinners</li>
+          <li>The Grand Budapest Hotel</li>
+          <li>The Lord of the Rings Trilogy</li>
+          <li>The Good, the Bad, and the Ugly</li>
+        </ul>
+      </div>
     </div>
 
 
+
     <div>
 
-      <h3 style="text-align: center;">Hobbies Visualized</h3>
-      <div class="container-fluid" style="max-width: 100%;">
-        <div id="hobbies" class="carousel slide">
+      <h3 style="text-align:start;">Hobbies Visualized</h3>
+      <div class="container-fluid">
+        <div id="hobbies" class="carousel slide" style="align-content: start; max-width: 450px;">
           <div class="carousel-inner">
             <!-- kickboxing.png has some strange behavior with the carousel. I think it has fewer pixels than the carousel would like as a minimum. -->
              <!-- Collection of carousel items -->

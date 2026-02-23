@@ -1,6 +1,3 @@
-<!-- TO DO: -->
-<!-- Fix layout (table) to be mobile-friendly -->
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -38,30 +35,31 @@
 </nav>
 
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid" style="grid-template-columns: auto;">
+        <div class="row">
+            <div class="col">
+                <h1>I'm Will Daggett. Welcome to my website!</h1>
+                <p>I'm an NDSU Computer Science senior with a bunch of different interests! You can learn more about that on my About Me page.<br> I graduate from the Computer Science program in December of this year.</p>
+                <p>I live in Moorhead, MN with my lovely wife and 3 cats. </p>
+                <img src="./images/497400706_18290823766301223_9017003304101195625_n.jpg" style="max-width: 20%; height: auto; margin-left: auto;">
+                <img src="images/boys.jpg" style="max-width: 20%; height: auto; margin-left: auto;" alt="">
+                <img src="images/tiamat.jpg" style="max-width: 20%; height: auto; margin-left: auto;" alt="">
+            </div>
 
-        <div>
-            <h1>I'm Will Daggett. Welcome to my website!</h1>
-            <p>I'm an NDSU Computer Science senior with a bunch of different interests! You can learn more about that on my About Me page.<br> I graduate from the Computer Science program in December of this year.</p>
-            <p>I live in Moorhead, MN with my lovely wife and 3 cats. </p>
-            <img src="./images/497400706_18290823766301223_9017003304101195625_n.jpg" style="max-width: 20%; height: auto; margin-left: auto;">
-            <img src="images/boys.jpg" style="max-width: 20%; height: auto; margin-left: auto;" alt="">
-            <img src="images/tiamat.jpg" style="max-width: 20%; height: auto; margin-left: auto;" alt="">
+            <div class="col">
+                <h3>Favorite Websites</h3>
+                <ul>
+                    <li><a href="https://rekt.network">Rekt.network</a>, a set of cool radio stations I like to put on a second monitor while doing work.</li>
+                    <li><a href="https://hackertyper.net/">HackerTyper</a>, a nostalgia pick from middle school, pretending to be cooler than I was.</li>
+                    <li><a href="https://hackaday.com">Hackaday</a>, a great resource full of cool articles and interesting projects.</li>
+                    <li><a href="https://lichess.org/">Lichess</a>, my preferred online chess client.</li>
+                    <li><a href="https://www.piskelapp.com/">Piskel</a>, an online pixel art app I use (poorly).</li>
+                    <li><a href="https://matias.me/nsfw">Trust me.</a></li>
+                </ul>
+            </div>
         </div>
 
-        <div>
-            <h3>Favorite Websites</h3>
-            <ul>
-                <li><a href="https://rekt.network">Rekt.network</a>, a set of cool radio stations I like to put on a second monitor while doing work.</li>
-                <li><a href="https://hackertyper.net/">HackerTyper</a>, a nostalgia pick from middle school, pretending to be cooler than I was.</li>
-                <li><a href="https://hackaday.com">Hackaday</a>, a great resource full of cool articles and interesting projects.</li>
-                <li><a href="https://lichess.org/">Lichess</a>, my preferred online chess client.</li>
-                <li><a href="https://www.piskelapp.com/">Piskel</a>, an online pixel art app I use (poorly).</li>
-                <li><a href="https://matias.me/nsfw">Trust me.</a></li>
-            </ul>
-        </div>
-
-        <div>
+        <div class="row table-responsive">
             <h3>My Class Schedule</h3>
             <table class="table table-striped-columns table-dark">
 
